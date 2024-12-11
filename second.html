@@ -1,90 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-    @keyframes fadein {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }}
-      @keyframes fadeout {
-      0% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }}
-        body,html{
-            opacity: 0;
-            overflow: hidden;
-            width: 100%;
-            height:100%;
-            margin:0;
-            display:flex;
-            justify-content: center;
-            align-items: center;
-            animation: fadein 1s ease-in forwards;
-        }
-        .fadeout {
-         animation: fadeout 1s forwards;
-        }
-        body img:not(.tip img) {
-        visibility: hidden;
-        position: absolute;
-        width: 400px;
-        height:400px;
-        height: auto;
-        z-index: 2;
-        }
-        .btn-group button{
-            font-family: "Kiwi Maru", serif;
-            font-weight: 300;
-            font-style: normal;
-        }
-        .bg{        
-            background-image: url(image/room1.png);
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            filter: blur(5px);
-            position: absolute;
-            height: 100%;
-            width: 100%;
-        }
-    </style>
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">      
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- google 字體匯入 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neon Gallery</title>
-    <script>
-        function jump(event,url){
-            event.preventDefault();
-            document.body.classList.add('fadeout')
-            setTimeout(() => {
-            window.location.href = url
-            }, 1000);
+    <link rel="stylesheet" href="CSS/st.css">
+    <style>
+        /*keyframe*/
+        .btn-group button {
+            font-family: "Kiwi Maru", serif;
+            font-weight: 300;
+            font-style: normal;
         }
-	</script>
+
+        .bg {
+            background-image: url(image/room1.png);
+        }
+    </style>
+    <script src="script/Func.js"></script>
+    <script>
+    </script>
 </head>
 <body>
-    <div class="bg"></div>
+    <div class="bg" id="bg"></div>
         <div class="position-fixed top-0 start-0">
             <div class="dropdown">
-                <a class="btn btn-secondary dropdown-toggle" style="width: 10vw" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                切換畫室
+                <a class="btn btn-secondary dropdown-toggle" onclick="" style="width: 100%" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    切換畫室
                 </a>
-            
-                <ul class="dropdown-menu"style="width: 10vw">
-                <li><a class="dropdown-item" onclick="jump(event,this.href)" href="/second.html">Neon Gallery</a></li>
-                <li><a class="dropdown-item" onclick="jump(event,this.href)" href="/third.html">Classic Gallery</a></li>
-                <li><a class="dropdown-item" onclick="jump(event,this.href)" href="/fourth.html">Minecraft Gallery</a></li>
-                <li><a class="dropdown-item" onclick="jump(event,this.href)" href="/index.html">回主畫面</a></li>
+
+                <ul class="dropdown-menu" id="list" style="width: 10%">
+                    <li><a class="dropdown-item" onclick="jump(event,this.href,1000)" href="second.html">Neon Gallery</a></li>
+                    <li><a class="dropdown-item" onclick="jump(event,this.href,1000)" href="third.html">Classic Gallery</a></li>
+                    <li><a class="dropdown-item" onclick="jump(event,this.href,1000)" href="fourth.html">Minecraft Gallery</a></li>
+                    <li><a class="dropdown-item" onclick="jump(event,this.href,1000)" href="index.html">回主畫面</a></li>
                 </ul>
             </div>
         </div>

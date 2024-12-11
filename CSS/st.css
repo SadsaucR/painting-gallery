@@ -1,0 +1,54 @@
+﻿@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.fadeout {
+    animation: fadeout 1s forwards;
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.noblur {
+    filter: none;
+}
+
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    animation: fadein 1s ease-in forwards
+}
+.bg {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    transition: filter 1s ease;
+}

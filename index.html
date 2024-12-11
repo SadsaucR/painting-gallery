@@ -1,196 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-/*keyframe*/
-        @keyframes fadein {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }}
-      @keyframes fadeout {
-      0% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }}
-/*script*/
-        body,html{
-            overflow: hidden;
-            width: 100%;
-            height:100%;
-            margin:0;
-            display:flex;
-            justify-content: center;
-            align-items: center;
-            animation: fadein 1s ease-in forwards;
-        }
-        body img{
-            position: absolute;
-            top:10%;
-            width: 50%;
-            height: auto;
-        }
-        .meme{  
-        visibility: hidden;
-        position: absolute;
-        width: 50%;
-        height: auto;
-        z-index: 2;
-
-        }
-        .fadeout {
-         animation: fadeout 1s forwards;
-        }
-        .bg{        
-            background-image: url(image/title.png);
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            filter: blur(5px);
-            position: absolute;
-            height: 100%;
-            width: 100%;
-        }
-        .tip{
-            visibility: hidden;
-            opacity: 0;
-            transform: scale(0.9);
-            font-family: "Kiwi Maru", serif;
-            font-weight: 300;
-            font-style: normal;
-            position: relative;
-            width: 450px;
-            background-color: #fff;
-            color: #7e3333;
-            padding: 20px;
-            border: 2px solid #ccc;
-            -moz-border-radius: 20px;
-            -webkit-border-radius: 20px;
-            -khtml-border-radius: 20px;
-            -moz-box-shadow: 0 1px 5px #333;
-            -webkit-box-shadow: 0 1px 5px #333;
-            z-index: 1;
-            -webkit-transition: all 3s ease-out;
-            -ms-transition: all 3s ease-out;
-            transition: all 1s ease-out;
-        }
-        .tip.show{
-            visibility:visible;
-            opacity: 1;
-            transform: scale(2); 
-        }
-        .tip.hide{
-            visibility: hidden;
-            opacity: 0;
-            transform: scale(0.8);
-            -webkit-transition: all 3s ease-out;
-            -ms-transition: all 3s ease-out;
-            transition: all 1s ease-out;
-        }
-        .tip p{
-            font-family: "Kiwi Maru", serif;
-            font-weight: 400;
-            font-style: normal;
-            position: absolute;
-            top: 45px;
-            left: 0px;
-            margin: 1px; /* 可調整間距 */
-            font-size: 1.6em;
-        }
-        .tip img{
-            display: block;
-            position:absolute;
-            width:300px;
-            height:150px;
-            top: 85%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        .tip img:hover {
-        --zoomlevel:1.2;
-        --trzoom:calc(-50% / var(--zoomlevel));
-        position:absolute;
-        opacity: 0.5;
-        transform: scale(var(--zoomlevel)) translate(var(--trzoom),var(--trzoom));
-        }
-        .tip h1 {
-            font-family: "Kiwi Maru", serif;
-            font-weight: 400;
-            font-style: normal;
-            margin: -20px -20px 300px -20px;
-            padding: 1px;
-            text-align: center;
-            background-color: #36c7afef;
-            color: #000000;
-            -moz-border-radius: 20px 20px 0px 0px;
-            -webkit-border-top-left-radius: 20px;
-            -webkit-border-top-right-radius: 20px;
-            -khtml-border-top-left-radius: 20px;
-            -khtml-border-top-right-radius: 20px;
-         }
-         .bt{
-            position: absolute;
-            width: 160px;
-            height: 45px;
-            opacity: 1;
-            transform: scale(1);
-         }
-         .bt.out{
-            opacity: 0;
-            transform: scale(0.8);
-         }
-    </style>
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">      
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- google 字體匯入 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>畫廊</title>
-    <script>
-        
-        function ShowTip(){
-            const bt = document.getElementById("bt");
-            bt.classList.toggle("out")
-            document.getElementById("exp").style.visibility = "visible";
-            setTimeout(function(){
-                document.getElementById("exp").style.visibility = "hidden"
-            },500)
-            const tip=document.getElementById("tip")
-            tip.classList.toggle("show")
+    <link rel="stylesheet" href="CSS/st.css">
+    <style>
+        .bg {
+            background-image: url(image/title.png);
+        }
+        body img {
+            max-width: 100%;
+            max-height: 80%;
+            width: 80%;
+            height: auto;
+            display: block;
+            margin-top: 10%;
+            z-index: 1;
         }
 
-        function Start(){
-            const tip = document.getElementById("tip");
-            document.getElementById("exp").style.scale=2
+
+        .meme {
+            visibility: hidden;
+            position: absolute;
+            width: 50%;
+            height: auto;
+            margin-top: 20%;
+        }
+
+        .bt {
+            position: absolute;
+            opacity: 1;
+            transform: scale(1);
+            max-width: 90%;
+            max-height: 80%;
+            width: 20%;
+            height: 10%;
+            display: block;
+            margin-top: 35%;
+        }
+
+        .tip.show {
+            visibility: visible;
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .tip.hide {
+            visibility: hidden;
+            opacity: 0;
+            transform: scale(0.8);
+            transition: all 1s ease-out;
+        }
+
+        .tip {
+            visibility: hidden;
+            opacity: 0;
+            overflow: auto;
+            min-width: 30%;
+            width: 60%;
+            height: 60%;
+            font-family: "Kiwi Maru", serif;
+            font-weight: 400;
+            font-style: normal;
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            position: absolute;
+            transform: scale(0.5);
+            background-color: #fff;
+            color: #7e3333;
+            padding: 0;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+            box-shadow: 0 1px 5px #333;
+            transition: all 1s ease-out;
+            margin-top: 10%;
+        }
+
+            .tip h1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: clamp(1px, 5vw, 3rem);
+                width: 100%;
+                height: auto;
+                font-weight: 400;
+                position: relative;
+                text-align: center;
+                background-color: #36c7afef;
+                color: #000000;
+                border-radius: 20px 20px 0 0;
+                margin-top: 0%;
+                margin-bottom: -5%;
+            }
+
+            .tip p {
+                font-size: clamp(1px, 3vw, 3rem); /* 根據視口寬度調整字體大小 */
+                color: #333;
+                margin-bottom: 0%;
+            }
+
+            .tip img {
+                display: block;
+                position: relative;
+                width: 45%;
+                max-width: 400px;
+                height: auto;
+                align-self: center;
+                margin-top: 0%;
+            }
+
+                .tip img:hover {
+                    transform: scale(1.2);
+                    position: relative;
+                    opacity: 0.5;
+                }
+    </style>
+    <script src="script/Func.js"></script>
+    <script>
+        function ShowTip() {
             document.getElementById("exp").style.visibility = "visible";
-            setTimeout(function(){
+            setTimeout(function () {
+                document.getElementById("exp").style.visibility = "hidden"
+            }, 500)
+            bgblur('bg');
+            const tip = document.getElementById("tip");
+            tip.classList.toggle("show");
+        }
+
+
+        function Start() {
+            const tip = document.getElementById("tip");
+            document.getElementById("exp").style.scale = 3;
+            document.getElementById("exp").style.visibility = "visible";
+            setTimeout(function () {
                 document.getElementById("exp").style.visibility = "hidden";
-            },750)
+            }, 750)
             tip.style.pointerEvents = 'none';
-            setTimeout(function(){
+            setTimeout(function () {
                 tip.classList.toggle("hide");
-            },750)
+            }, 250)
             setTimeout(() => {
                 document.body.classList.add('fadeout')
                 setTimeout(() => {
-                window.location.href = "second.html"
+                    window.location.href = "second.html"
                 }, 1000);
-            },1000);
+            }, 1000);
         }
 
 
-	</script>
+    </script>
 </head>
 <body>
-    <div class="bg"></div>
-    <img src="image/logo.gif">
-    <button class="bt" id="bt" onclick="ShowTip()">按我</button>
+    <div class="bg" id="bg"></div>
+    <img src="image/logo.gif" id="title">
     <img class="meme" id="exp" src="image/exp.gif">
+    <button class="bt" id="bt" onclick="fadeout('title'),fadeout('bt'),ShowTip('bt')">按我</button>
     <div class="tip" id="tip">
         <h1>畫廊</h1>
         <p>
@@ -200,13 +172,8 @@
             <br>清除畫框功能，將畫框初始化。
             <br>選單功能，可跳轉至其他畫室。
         </p>
-            <img src="image/button.png" id = "stbutton" onclick="Start()">
+        <img src="image/button.png" id="stbutton" onclick="Start()">
+        
     </div>
-    <!-- 
-    _blank:開新頁籤
-    _top:蓋掉最上層
-    _self:換掉自己這一頁
-    _parent:換掉上一層網頁 
-    custom:自定義標籤-->
 </body>
 </html>
