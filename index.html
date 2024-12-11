@@ -1,19 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
+/*keyframe*/
+        @keyframes fadein {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }}
+      @keyframes fadeout {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }}
+/*script*/
         body,html{
+            overflow: hidden;
+            width: 100%;
             height:100%;
             margin:0;
             display:flex;
             justify-content: center;
             align-items: center;
+            animation: fadein 1s ease-in forwards;
         }
-        img {
-        width: 100px;
+        body img{
+            position: absolute;
+            top:10%;
+            width: 50%;
+            height: auto;
+        }
+        .meme{  
+        visibility: hidden;
+        position: absolute;
+        width: 50%;
         height: auto;
+        z-index: 2;
+
+        }
+        .fadeout {
+         animation: fadeout 1s forwards;
         }
         .bg{        
-            background-image: url(/小專/image/title.png);
+            background-image: url(image/title.png);
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -50,6 +82,14 @@
             opacity: 1;
             transform: scale(2); 
         }
+        .tip.hide{
+            visibility: hidden;
+            opacity: 0;
+            transform: scale(0.8);
+            -webkit-transition: all 3s ease-out;
+            -ms-transition: all 3s ease-out;
+            transition: all 1s ease-out;
+        }
         .tip p{
             font-family: "Kiwi Maru", serif;
             font-weight: 400;
@@ -60,7 +100,26 @@
             margin: 1px; /* 可調整間距 */
             font-size: 1.6em;
         }
+        .tip img{
+            display: block;
+            position:absolute;
+            width:300px;
+            height:150px;
+            top: 85%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .tip img:hover {
+        --zoomlevel:1.2;
+        --trzoom:calc(-50% / var(--zoomlevel));
+        position:absolute;
+        opacity: 0.5;
+        transform: scale(var(--zoomlevel)) translate(var(--trzoom),var(--trzoom));
+        }
         .tip h1 {
+            font-family: "Kiwi Maru", serif;
+            font-weight: 400;
+            font-style: normal;
             margin: -20px -20px 300px -20px;
             padding: 1px;
             text-align: center;
@@ -79,8 +138,10 @@
             opacity: 1;
             transform: scale(1);
          }
-
-         
+         .bt.out{
+            opacity: 0;
+            transform: scale(0.8);
+         }
     </style>
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -90,20 +151,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>畫廊</title>
-	<script>
-		function ShowTip() {
-			const tip=document.getElementById("tip")
-            tip.classList.toggle("show")
-        		}
-        function btout(){
+    <script>
+        
+        function ShowTip(){
             const bt = document.getElementById("bt");
-            button.outerHTML ='<img src="/小專/image/exp.gif">'
+            bt.classList.toggle("out")
+            document.getElementById("exp").style.visibility = "visible";
+            setTimeout(function(){
+                document.getElementById("exp").style.visibility = "hidden"
+            },500)
+            const tip=document.getElementById("tip")
+            tip.classList.toggle("show")
         }
+
+        function Start(){
+            const tip = document.getElementById("tip");
+            document.getElementById("exp").style.scale=2
+            document.getElementById("exp").style.visibility = "visible";
+            setTimeout(function(){
+                document.getElementById("exp").style.visibility = "hidden";
+            },750)
+            tip.style.pointerEvents = 'none';
+            setTimeout(function(){
+                tip.classList.toggle("hide");
+            },750)
+            setTimeout(() => {
+                document.body.classList.add('fadeout')
+                setTimeout(() => {
+                window.location.href = "second.html"
+                }, 1000);
+            },1000);
+        }
+
+
 	</script>
 </head>
 <body>
     <div class="bg"></div>
+    <img src="image/logo.gif">
     <button class="bt" id="bt" onclick="ShowTip()">按我</button>
+    <img class="meme" id="exp" src="image/exp.gif">
     <div class="tip" id="tip">
         <h1>畫廊</h1>
         <p>
@@ -113,6 +200,7 @@
             <br>清除畫框功能，將畫框初始化。
             <br>選單功能，可跳轉至其他畫室。
         </p>
+            <img src="image/button.png" id = "stbutton" onclick="Start()">
     </div>
     <!-- 
     _blank:開新頁籤
