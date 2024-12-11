@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body,html{
+            height:100%;
+            margin:0;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+        width: 100px;
+        height: auto;
+        }
+        .bg{        
+            background-image: url(/小專/image/title.png);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            filter: blur(5px);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+        .tip{
+            visibility: hidden;
+            opacity: 0;
+            transform: scale(0.9);
+            font-family: "Kiwi Maru", serif;
+            font-weight: 300;
+            font-style: normal;
+            position: relative;
+            width: 450px;
+            background-color: #fff;
+            color: #7e3333;
+            padding: 20px;
+            border: 2px solid #ccc;
+            -moz-border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -khtml-border-radius: 20px;
+            -moz-box-shadow: 0 1px 5px #333;
+            -webkit-box-shadow: 0 1px 5px #333;
+            z-index: 1;
+            -webkit-transition: all 3s ease-out;
+            -ms-transition: all 3s ease-out;
+            transition: all 1s ease-out;
+        }
+        .tip.show{
+            visibility:visible;
+            opacity: 1;
+            transform: scale(2); 
+        }
+        .tip p{
+            font-family: "Kiwi Maru", serif;
+            font-weight: 400;
+            font-style: normal;
+            position: absolute;
+            top: 45px;
+            left: 0px;
+            margin: 1px; /* 可調整間距 */
+            font-size: 1.6em;
+        }
+        .tip h1 {
+            margin: -20px -20px 300px -20px;
+            padding: 1px;
+            text-align: center;
+            background-color: #36c7afef;
+            color: #000000;
+            -moz-border-radius: 20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+         }
+         .bt{
+            position: absolute;
+            width: 160px;
+            height: 45px;
+            opacity: 1;
+            transform: scale(1);
+         }
+
+         
+    </style>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">      
+    <!-- google 字體匯入 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>畫廊</title>
+	<script>
+		function ShowTip() {
+			const tip=document.getElementById("tip")
+            tip.classList.toggle("show")
+        		}
+        function btout(){
+            const bt = document.getElementById("bt");
+            button.outerHTML ='<img src="/小專/image/exp.gif">'
+        }
+	</script>
+</head>
+<body>
+    <div class="bg"></div>
+    <button class="bt" id="bt" onclick="ShowTip()">按我</button>
+    <div class="tip" id="tip">
+        <h1>畫廊</h1>
+        <p>
+            實現功能:
+            <br>畫布繪製功能，能在畫布上畫畫。
+            <br>畫框展示功能，可以將畫布上傳到畫框上。
+            <br>清除畫框功能，將畫框初始化。
+            <br>選單功能，可跳轉至其他畫室。
+        </p>
+    </div>
+    <!-- 
+    _blank:開新頁籤
+    _top:蓋掉最上層
+    _self:換掉自己這一頁
+    _parent:換掉上一層網頁 
+    custom:自定義標籤-->
+</body>
+</html>
