@@ -19,15 +19,96 @@
         }
 
         .bg {
+            position: relative;
             background-image: url(image/room1.png);
+            height: 100vh;
+            width: 100%;
+        }   
+
+        .tip.show {
+            visibility: visible;
+            opacity: 1;
+            transform: scale(1);
         }
+
+        .tip.hide {
+            visibility: hidden;
+            opacity: 0;
+            transform: scale(0.8);
+            transition: all 1s ease-out;
+        }
+        .tip {
+            overflow: auto;
+            scale: 0.5;
+            min-width: 30%;
+            max-height: 60%;
+            width: 60%;
+            height: auto;
+            font-family: "Kiwi Maru", serif;
+            font-weight: 400;
+            font-style: normal;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            background-color: #fff;
+            color: #7e3333;
+            padding: 0;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+            box-shadow: 0 1px 5px #333;
+            animation: movdwn 0.75s forwards,zoom 1s forwards 0.5s;
+        }
+
+            .tip h1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: clamp(1px, 5vw, 3rem);
+                width: 100%;
+                height: auto;
+                font-weight: 400;
+                position: relative;
+                text-align: center;
+                background-color: #36c7afef;
+                color: #000000;
+                border-radius: 20px 20px 0 0;
+                margin-top: 0%;
+                margin-bottom: -5%;
+            }
+
+            .tip p {
+                font-size: clamp(1px, 3vw, 3rem); /* 根據視口寬度調整字體大小 */
+                color: #333;
+                margin-bottom: 0%;
+            }
+
     </style>
     <script src="script/Func.js"></script>
     <script>
     </script>
 </head>
 <body>
-    <div class="bg" id="bg"></div>
+
+    <div class="bg" id="bg">
+        <div class="frame1" id="frame1"></div>
+        <div class="frame2" id="frame2"></div>
+    </div>
+    <div class="tip" id="tip">
+        <h1>畫廊</h1>
+        <p>
+            <br>畫布繪製功能，能在畫布上畫畫。
+            <br>畫框展示功能，可以將畫布上傳到畫框上。
+            <br>清除畫框功能，將畫框初始化。
+            <br>清除畫框功能，將畫框初始化。
+            <br>清除畫框功能，將畫框初始化。
+            <br>清除畫框功能，將畫框初始化。
+            <br>清除畫框功能，將畫框初始化。
+            <br>清除畫框功能，將畫框初始化。
+            <br>清除畫框功能，將畫框初始化。
+        </p>
+    </div>
         <div class="position-fixed top-0 start-0">
             <div class="dropdown">
                 <a class="btn btn-secondary dropdown-toggle" onclick="" style="width: 100%" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

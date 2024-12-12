@@ -1,10 +1,12 @@
 ﻿@keyframes fadein {
     0% {
         opacity: 0;
+        visibility: visible;
     }
 
     100% {
         opacity: 1;
+        
     }
 }
 
@@ -15,8 +17,30 @@
 
     100% {
         opacity: 0;
+        visibility: hidden;
     }
 }
+
+@keyframes zoom{
+    0%{
+        scale: 0.5;
+    }
+
+    100%{
+        scale: 1;
+    }
+}
+
+@keyframes movdwn{
+    0%{
+        top: -30%;
+    }
+
+    100%{
+        top: 30%;
+    }
+}
+
 
 .fadeout {
     animation: fadeout 1s forwards;
@@ -43,12 +67,164 @@ body {
 .bg {
     display: flex;
     position: absolute;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-size: 100% 100%;
     background-position: center;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     transition: filter 1s ease;
 }
+.zoom{
+    background-size:contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.btn-group button{
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* 以下為frame框架 */
+.frame1 {
+    display: flex;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 98%, 100% 0%);
+    position: absolute;
+    background-attachment: fixed;
+    width: 17.5%;
+    height: 31.5%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #7e3333;
+    padding: 0;
+    left: 26.9%;
+    top: 32%;
+    transition: 0.5s;
+}
+.frame2 {
+    display: flex;
+    clip-path: polygon(0% 1%, 0% 100%, 100% 98%, 100% 3%);
+    position: absolute;
+    background-attachment: fixed;
+    width: 15%;
+    height: 32.8%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #7e3333;
+    padding: 0;
+    left: 49.4%;
+    top: 28.7%;
+    transition: 0.5s;
+}
+.frame3 {
+    display: flex;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100, 100% 0%);
+    position: absolute;
+    background-attachment: fixed;
+    width: 15.8%;
+    height: 33%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #7e3333;
+    padding: 0;
+    left: 17.5%;
+    top: 20%;
+    transition: 0.5s;
+}
+.frame4 {
+    display: flex;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100, 100% 0%);
+    position: absolute;
+    background-attachment: fixed;
+    width: 15%;
+    height: 33%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #7e3333;
+    padding: 0;
+    left: 42.5%;
+    top: 20%;
+    transition: 0.5s;
+}
+.frame5 {
+    display: flex;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100, 100% 0%);
+    position: absolute;
+    background-attachment: fixed;
+    width: 16%;
+    height: 33%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #7e3333;
+    padding: 0;
+    left: 66.65%;
+    top: 20%;
+    transition: 0.5s;
+}
+.frame6 {
+    display: flex;
+    clip-path: polygon(0 2%, 1% 100%, 100% 100%, 100% 2%);                    
+    position: absolute;
+    background-attachment: fixed;
+    width: 28.25%;
+    height: 54%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #7e3333;
+    padding: 0;
+    left: 16.1%;
+    top: 13%;
+}
+.frame7 {
+    display: flex;
+    clip-path: polygon(0 2%, 0 100%, 100% 100%, 100% 1%);                    
+    position: absolute;
+    background-attachment: fixed;
+    width: 28.25%;
+    height: 54%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #7e3333;
+    padding: 0;
+    left: 54.7%;
+    top: 11%;
+}
+
+.frame1:hover {
+    transform: scale(1.2);
+    border:2px solid red;
+}
+.frame2:hover {
+    transform: scale(1.2);
+     border:2px solid red;
+}
+.frame3:hover {
+    transform: scale(1.2);
+     border:2px solid red;
+}
+.frame4:hover {
+    transform: scale(1.2);
+     border:2px solid red;
+}
+.frame5:hover {
+    transform: scale(1.2);
+     border:2px solid red;
+}
+.frame6:hover {
+    transform: scale(1.2);
+     border:2px solid red;
+}
+.frame7:hover {
+    transform: scale(1.2);
+     border:2px solid red;
+}
+
