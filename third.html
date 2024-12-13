@@ -28,11 +28,17 @@
 </head>
 <body>
   <div class="bg" id="bg">
-    <div class="frame3" id="frame3"></div>
-    <div class="frame4" id="frame4"></div>
-    <div class="frame5" id="frame5"></div>
   </div>
-      <div class="position-fixed top-0 start-0">
+  <div class="frame" data-width="15.8%" data-height="33%" style="clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%); width: 15.8%; height: 33%; left: 17.5%; top: 20%" onclick="showCanvas(this)"></div>  <div class="frame"></div>
+  <div class="frame" data-width="15%" data-height="33%" style="clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%); width: 15%; height: 33%; left: 42.5%; top: 20%;" onclick="showCanvas(this)"></div>
+  <div class="frame" data-width="16%" data-height="33%" style="clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%); width: 16%; height: 33%; left: 66.65%; top: 20%;" onclick="showCanvas(this)"></div>
+  <div class="overlay" id="overlay"></div>
+  <div id="canvasContainer" style="display:none;">
+      <canvas id="canvas"></canvas>
+      <button id="uploadButton" onclick="uploadCanvas()">上傳畫布</button>
+      <button id="cleanButton" onclick="cleanCanvas()">清空畫布</button>
+  </div>
+  <div class="position-fixed top-0 start-0">
           <div class="dropdown">
               <a class="btn btn-secondary dropdown-toggle" onclick="" style="width: 100%" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   切換畫室

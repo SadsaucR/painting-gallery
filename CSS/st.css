@@ -55,20 +55,17 @@
 }
 
 body {
+
     overflow: hidden;
-    display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     height: 100vh;
     margin: 0;
     padding: 0;
     animation: fadein 1s ease-in forwards
 }
 .bg {
-    display: flex;
     position: absolute;
-    justify-content: flex-start;
-    align-items: flex-start;
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,11 +73,7 @@ body {
     width: 100%;
     transition: filter 1s ease;
 }
-.zoom{
-    background-size:contain;
-    background-position: center;
-    background-attachment: fixed;
-}
+
 .btn-group button{
     font-family: "Kiwi Maru", serif;
     font-weight: 300;
@@ -88,143 +81,50 @@ body {
 }
 
 /* 以下為frame框架 */
-.frame1 {
-    display: flex;
-    clip-path: polygon(0% 0%, 0% 100%, 100% 98%, 100% 0%);
+.frame{
     position: absolute;
-    background-attachment: fixed;
-    width: 17.5%;
-    height: 31.5%;
-    align-items: center;
-    justify-content: center;
     background-color: white;
-    color: #7e3333;
-    padding: 0;
-    left: 26.9%;
-    top: 32%;
+    border: 2px solid black;
     transition: 0.5s;
 }
-.frame2 {
-    display: flex;
-    clip-path: polygon(0% 1%, 0% 100%, 100% 98%, 100% 3%);
-    position: absolute;
-    background-attachment: fixed;
-    width: 15%;
-    height: 32.8%;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    color: #7e3333;
-    padding: 0;
-    left: 49.4%;
-    top: 28.7%;
-    transition: 0.5s;
-}
-.frame3 {
-    display: flex;
-    clip-path: polygon(0% 0%, 0% 100%, 100% 100, 100% 0%);
-    position: absolute;
-    background-attachment: fixed;
-    width: 15.8%;
-    height: 33%;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    color: #7e3333;
-    padding: 0;
-    left: 17.5%;
-    top: 20%;
-    transition: 0.5s;
-}
-.frame4 {
-    display: flex;
-    clip-path: polygon(0% 0%, 0% 100%, 100% 100, 100% 0%);
-    position: absolute;
-    background-attachment: fixed;
-    width: 15%;
-    height: 33%;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    color: #7e3333;
-    padding: 0;
-    left: 42.5%;
-    top: 20%;
-    transition: 0.5s;
-}
-.frame5 {
-    display: flex;
-    clip-path: polygon(0% 0%, 0% 100%, 100% 100, 100% 0%);
-    position: absolute;
-    background-attachment: fixed;
-    width: 16%;
-    height: 33%;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    color: #7e3333;
-    padding: 0;
-    left: 66.65%;
-    top: 20%;
-    transition: 0.5s;
-}
-.frame6 {
-    display: flex;
-    clip-path: polygon(0 2%, 1% 100%, 100% 100%, 100% 2%);                    
-    position: absolute;
-    background-attachment: fixed;
-    width: 28.25%;
-    height: 54%;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    color: #7e3333;
-    padding: 0;
-    left: 16.1%;
-    top: 13%;
-}
-.frame7 {
-    display: flex;
-    clip-path: polygon(0 2%, 0 100%, 100% 100%, 100% 1%);                    
-    position: absolute;
-    background-attachment: fixed;
-    width: 28.25%;
-    height: 54%;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    color: #7e3333;
-    padding: 0;
-    left: 54.7%;
-    top: 11%;
-}
-
-.frame1:hover {
+.frame:hover {
     transform: scale(1.2);
     border:2px solid red;
 }
-.frame2:hover {
-    transform: scale(1.2);
-     border:2px solid red;
+/* 以下為canva框架 */
+canvas {
+    border: 2px solid black;
+    background-color: white;
+    z-index: 10;
+    transform:scale(1);
 }
-.frame3:hover {
-    transform: scale(1.2);
-     border:2px solid red;
+#canvasContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%,);
+    z-index: 10;
+    display: none; 
 }
-.frame4:hover {
-    transform: scale(1.2);
-     border:2px solid red;
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5;
 }
-.frame5:hover {
-    transform: scale(1.2);
-     border:2px solid red;
+.blast {
+    display: none;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: index 11;
+    transition: 1s ease-in;
+    z-index: 9999;
 }
-.frame6:hover {
-    transform: scale(1.2);
-     border:2px solid red;
-}
-.frame7:hover {
-    transform: scale(1.2);
-     border:2px solid red;
-}
-
