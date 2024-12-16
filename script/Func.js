@@ -335,6 +335,23 @@ function exportCanvas() {
     link.download = "canva"+timestamp+".PNG"// 設定下載的文件名
     link.click();  // 觸發點擊事件，開始下載
 }
+//下載畫布資料
+function cap() {
+    html2canvas(document.querySelector("#capture"), {
+        allowTaint: true,
+        useCORS: true,
+        scrollX: 0,
+        scrollY: 0,
+        width: window.innerWidth,
+        height: window.innerHeight,
+    }).then(canvas => {
+        const dataURL = canvas.toDataURL("image/png");
+        const link = document.createElement("a");
+        link.href = dataURL;
+        link.download = "test.png";
+        link.click();
+    });
+}
 
 
 
