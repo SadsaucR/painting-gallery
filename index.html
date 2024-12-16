@@ -32,7 +32,7 @@
             position: absolute;
             width: 50%;
             height: auto;
-            margin-top: 20%;
+            margin-top: 10%;
         }
 
         .bt {
@@ -73,9 +73,9 @@
             visibility: hidden;
             opacity: 0;
             overflow: auto;
-            min-width: 30%;
             width: 60%;
-            height: 60%;
+            height: 80%;
+            aspect-ratio: 3 / 4;
             font-family: "Kiwi Maru", serif;
             font-weight: 400;
             font-style: normal;
@@ -122,9 +122,10 @@
             .tip img {
                 display: block;
                 position: relative;
-                width: 45%;
-                max-width: 400px;
-                height: auto;
+                width: 100%; /* 設定寬度為容器的 100% */
+                max-width: 400px; /* 設定最大寬度為 400px */
+                height: auto; /* 保持圖片比例 */
+                object-fit: contain; /* 確保圖片按比例縮放並填滿容器 */
                 align-self: center;
                 margin-top: 0%;
             }

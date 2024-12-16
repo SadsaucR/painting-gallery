@@ -6,83 +6,23 @@
     <title></title>
 </head>
 <body>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-        }
-
-        .gallery {
-            text-align: center;
-        }
-
-        .frame {
-            width: 80%;
-            max-width: 800px;
-            height: 500px;
-            border: 5px solid #000;
-            position: relative;
-            margin-bottom: 20px;
-            background-color: #fff;
-        }
-
-        .canvas {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-
-        .tools {
-            margin-bottom: 20px;
-        }
-
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            margin: 5px;
-            cursor: pointer;
-        }
-
-        .menu {
-            margin-top: 20px;
-        }
-
-            .menu a {
-                margin: 0 15px;
-                font-size: 18px;
-                text-decoration: none;
-                color: #333;
-            }
-
-                .menu a:hover {
-                    color: #007BFF;
-                }
-    </style>
-    <div class="gallery">
-        <!-- 畫框區域 -->
-        <div id="frame" class="frame">
-            <canvas id="canvas" class="canvas"></canvas>
-        </div>
-
-        <!-- 畫筆選項 -->
-        <div class="tools">
-            <button id="clearButton">清空畫布</button>
-            <button id="uploadButton">上傳畫布</button>
-        </div>
-
-        <!-- 選單 -->
-        <div class="menu">
-            <a href="paintingRoom1.html">畫室 1</a>
-            <a href="paintingRoom2.html">畫室 2</a>
-        </div>
+    <div id="capture" style="padding: 10px; background: #f5da55">
+        <h4 style="color: #000; ">Hello world!</h4>
     </div>
+    <button onclick="cap()">cap</button>
+    <script>
+        function cap() {
+            html2canvas(document.querySelector("#capture")).then(canvas => {
+                const dataURL = canvas.toDataURL("image/png");
+                const link = document.createElement("a");
+                link.href = dataURL;
+                link.download = "test.png";
 
-    <script src="script/Func.js"></script>
+                link.click();
+            });
+        }
+
+    </script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </body>
 </html>

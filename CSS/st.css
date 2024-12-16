@@ -55,14 +55,15 @@
 }
 
 body {
-
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
     padding: 0;
-    animation: fadein 1s ease-in forwards
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    overflow: hidden;
 }
 .bg {
     position: absolute;
@@ -79,6 +80,46 @@ body {
     font-weight: 300;
     font-style: normal;
 }
+
+/*以下為工具列*/
+.toolbox {
+    position: absolute;
+    right: -100%; 
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9998;
+    transition: right 0.3s ease-in-out;
+}
+
+    .toolbox.show {
+        right: 10px;
+    }
+
+    .toolbox button {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #36c7af;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .toolbox button:hover {
+            background-color: #2aa086;
+        }
+
+        .toolbox button:active {
+            background-color: #1f7865;
+        }
 
 /* 以下為frame框架 */
 .frame{
@@ -102,10 +143,29 @@ canvas {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform:translate(-50%, -50%,);
+    transform:translate(-50%, -50%);
     z-index: 10;
     display: none; 
 }
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 20px; 
+    position: relative;
+    top: 0; 
+
+
+}
+
+    .buttonContainer button {
+        font-size: 16px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
 .overlay {
     display: none;
     position: fixed;
@@ -116,6 +176,9 @@ canvas {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 5;
 }
+
+/*此為爆炸物*/
+
 .blast {
     display: none;
     position: fixed;
@@ -124,7 +187,9 @@ canvas {
     background-size: cover;
     height: 100%;
     width: 100%;
-    z-index: index 11;
     transition: 1s ease-in;
     z-index: 9999;
+}
+.capture{
+    display:none;
 }
