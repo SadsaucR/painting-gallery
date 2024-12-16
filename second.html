@@ -12,29 +12,18 @@
     <title>Neon Gallery</title>
     <link rel="stylesheet" href="CSS/st.css">
     <style>
-        .bg {
-            background-image: url(room1.png);
-        }
     </style>
     <script src="script/Func.js"></script>
     <script>
-        function cap() {
-            html2canvas(document.querySelector("#capture")).then(canvas => {
-                const dataURL = canvas.toDataURL("image/png");
-                const link = document.createElement("a");
-                link.href = dataURL;
-                link.download = "test.png";
-
-                link.click();
-            });
-        }
     </script>
 </head>
-<body id="capture">
+<body>
+    <div id="capture">
+    <img class="bg" src="https://raw.githubusercontent.com/SadsaucR/painting-gallery/refs/heads/master/image/room1.png"  crossorigin="anonymous" >
     <img class="blast" id="blast" src="image/blast.gif">
-    <div class="bg" id="bg"></div>
     <div class="frame" data-index="1" data-width="17.5%" data-height="31.5%" style="clip-path: polygon(0% 0%, 0% 100%, 100% 98%, 100% 0%);width: 17.5%; height: 31.5%; left: 26.9%; top: 32%;" onclick="showCanvas(this)"></div>
     <div class="frame" data-index="2" data-width="15%" data-height="32.8%" style="clip-path: polygon(0% 1%, 0% 100%, 100% 98%, 100% 3%);width: 15%; height: 32.8%; left: 49.4%; top: 28.7%;" onclick="showCanvas(this)"></div>
+    </div>
     <div class="overlay" id="overlay"></div>
     <div id="canvasContainer" style="display:none;">
         <canvas id="canvas"></canvas>
@@ -48,8 +37,6 @@
         <button id="pencilTool" onclick="selectTool('pencil')">鉛筆</button>
         <button id="eraserTool" onclick="selectTool('eraser')">橡皮擦</button>
         <button id="brushTool" onclick="selectTool('brush')">刷子</button>
-        <button id="undoTool" onclick="undo()">上一步</button>
-        <button id="redoTool" onclick="redo()">下一步</button>
 
         <input type="color" id="colorPicker" value="#000000" onchange="updatePencilSettings()">
 
