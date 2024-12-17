@@ -220,7 +220,7 @@ function showCanvas(frame) {
 
     canvas.addEventListener("click", function (e) {
         if (currentTool === 'brush') {
-            fillBackground(e);
+            fillCanvas(e);
         }
     });
 

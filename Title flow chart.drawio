@@ -1,0 +1,369 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="25.0.3" pages="3">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="TITLE">
+    <mxGraphModel dx="1958" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="9QTVGhvaD_2GiiJZFoyZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="9QTVGhvaD_2GiiJZFoyZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;主畫面index&lt;/span&gt;&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;arcSize=50;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-400" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9QTVGhvaD_2GiiJZFoyZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9QTVGhvaD_2GiiJZFoyZ-3" target="9QTVGhvaD_2GiiJZFoyZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9QTVGhvaD_2GiiJZFoyZ-3" value="顯示操作說明" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-240" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pJwQ3KTqY7-u9gj_tA-J-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9QTVGhvaD_2GiiJZFoyZ-10" target="9QTVGhvaD_2GiiJZFoyZ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9QTVGhvaD_2GiiJZFoyZ-10" value="進入畫廊second" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-80" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9QTVGhvaD_2GiiJZFoyZ-23" value="&lt;h1&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Kiwi+Maru&quot; face=&quot;Kiwi Maru&quot;&gt;畫室系統&lt;/font&gt;&lt;/h1&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="畫室系統" id="c2WG5NS82znBJIUKlmE5">
+    <mxGraphModel dx="2319" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="p32bG_T66AEGrpSboCYd-0" />
+        <mxCell id="p32bG_T66AEGrpSboCYd-1" parent="p32bG_T66AEGrpSboCYd-0" />
+        <mxCell id="-irfm2_ZbzQ2pwfHfL90-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="p32bG_T66AEGrpSboCYd-3" target="-irfm2_ZbzQ2pwfHfL90-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p32bG_T66AEGrpSboCYd-3" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;畫室系統&lt;/span&gt;&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;arcSize=50;fontStyle=0" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="-560" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p32bG_T66AEGrpSboCYd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="-irfm2_ZbzQ2pwfHfL90-4" target="p32bG_T66AEGrpSboCYd-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p32bG_T66AEGrpSboCYd-9" value="Neon Gallery" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" connectable="0" parent="p32bG_T66AEGrpSboCYd-8">
+          <mxGeometry x="0.6551" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p32bG_T66AEGrpSboCYd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="-irfm2_ZbzQ2pwfHfL90-4" target="p32bG_T66AEGrpSboCYd-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p32bG_T66AEGrpSboCYd-11" value="Minecraft Gallery" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" connectable="0" parent="p32bG_T66AEGrpSboCYd-10">
+          <mxGeometry x="0.6592" y="1" relative="1" as="geometry">
+            <mxPoint x="-12" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p32bG_T66AEGrpSboCYd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="-irfm2_ZbzQ2pwfHfL90-4" target="p32bG_T66AEGrpSboCYd-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p32bG_T66AEGrpSboCYd-13" value="Classic Gallery" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" connectable="0" parent="p32bG_T66AEGrpSboCYd-12">
+          <mxGeometry x="0.5114" relative="1" as="geometry">
+            <mxPoint x="-6" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-irfm2_ZbzQ2pwfHfL90-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontStyle=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="p32bG_T66AEGrpSboCYd-17" target="-irfm2_ZbzQ2pwfHfL90-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-irfm2_ZbzQ2pwfHfL90-11" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="-irfm2_ZbzQ2pwfHfL90-5">
+          <mxGeometry x="-0.24" y="1" relative="1" as="geometry">
+            <mxPoint x="11" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcLWZ5KZYA2a2tYNYy8--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="p32bG_T66AEGrpSboCYd-17" target="kcLWZ5KZYA2a2tYNYy8--8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcLWZ5KZYA2a2tYNYy8--6" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="kcLWZ5KZYA2a2tYNYy8--5">
+          <mxGeometry x="-0.1534" y="2" relative="1" as="geometry">
+            <mxPoint x="6" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p32bG_T66AEGrpSboCYd-17" value="切換&lt;span style=&quot;background-color: initial;&quot;&gt;畫室?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="-200" y="185" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-irfm2_ZbzQ2pwfHfL90-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="p32bG_T66AEGrpSboCYd-19" target="-irfm2_ZbzQ2pwfHfL90-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p32bG_T66AEGrpSboCYd-19" value="進入畫廊second" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="60" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-irfm2_ZbzQ2pwfHfL90-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="p32bG_T66AEGrpSboCYd-21" target="-irfm2_ZbzQ2pwfHfL90-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p32bG_T66AEGrpSboCYd-21" value="進入畫廊third" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="60" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-irfm2_ZbzQ2pwfHfL90-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="p32bG_T66AEGrpSboCYd-23" target="-irfm2_ZbzQ2pwfHfL90-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p32bG_T66AEGrpSboCYd-23" value="進入畫廊fourth" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="60" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-irfm2_ZbzQ2pwfHfL90-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="-irfm2_ZbzQ2pwfHfL90-1" target="p32bG_T66AEGrpSboCYd-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-irfm2_ZbzQ2pwfHfL90-1" value="開始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="-360" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kcLWZ5KZYA2a2tYNYy8--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontStyle=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="-irfm2_ZbzQ2pwfHfL90-4" target="kcLWZ5KZYA2a2tYNYy8--0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kcLWZ5KZYA2a2tYNYy8--2" value="回主畫面" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="kcLWZ5KZYA2a2tYNYy8--1">
+          <mxGeometry x="-0.1302" y="-2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-irfm2_ZbzQ2pwfHfL90-4" value="選擇畫室?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="-200" y="65" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-irfm2_ZbzQ2pwfHfL90-6" value="開始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="280" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kcLWZ5KZYA2a2tYNYy8--0" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;回主畫面&lt;/span&gt;&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;arcSize=50;fontStyle=0" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="-440" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kcLWZ5KZYA2a2tYNYy8--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="kcLWZ5KZYA2a2tYNYy8--8" target="BUDkHeqBglOHohRlDjeK-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcLWZ5KZYA2a2tYNYy8--10" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="kcLWZ5KZYA2a2tYNYy8--9">
+          <mxGeometry x="-0.2539" y="2" relative="1" as="geometry">
+            <mxPoint x="20" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcLWZ5KZYA2a2tYNYy8--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="kcLWZ5KZYA2a2tYNYy8--8" target="BUDkHeqBglOHohRlDjeK-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcLWZ5KZYA2a2tYNYy8--16" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="kcLWZ5KZYA2a2tYNYy8--11">
+          <mxGeometry x="-0.4046" relative="1" as="geometry">
+            <mxPoint x="10" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcLWZ5KZYA2a2tYNYy8--8" value="點擊畫布?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="-40" y="185" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kcLWZ5KZYA2a2tYNYy8--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="BUDkHeqBglOHohRlDjeK-4" target="p32bG_T66AEGrpSboCYd-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="409" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcLWZ5KZYA2a2tYNYy8--26" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Kiwi+Maru&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="kcLWZ5KZYA2a2tYNYy8--25">
+          <mxGeometry x="-0.7108" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUDkHeqBglOHohRlDjeK-0" value="&lt;h1 style=&quot;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Kiwi+Maru&quot; style=&quot;font-weight: normal; font-size: 15px;&quot;&gt;下載此頁畫布&lt;/font&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="240" y="384" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BUDkHeqBglOHohRlDjeK-1" value="&lt;h1 style=&quot;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Kiwi+Maru&quot; style=&quot;font-weight: normal; font-size: 15px;&quot;&gt;清空所有畫布&lt;/font&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="240" y="295" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BUDkHeqBglOHohRlDjeK-3" value="&lt;h1 style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 22px; font-weight: normal;&quot;&gt;畫布系統&lt;/font&gt;&lt;/h1&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="160" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUDkHeqBglOHohRlDjeK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="BUDkHeqBglOHohRlDjeK-4" target="BUDkHeqBglOHohRlDjeK-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUDkHeqBglOHohRlDjeK-16" value="清空所有畫布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="BUDkHeqBglOHohRlDjeK-8">
+          <mxGeometry x="0.0876" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUDkHeqBglOHohRlDjeK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="p32bG_T66AEGrpSboCYd-1" source="BUDkHeqBglOHohRlDjeK-4" target="BUDkHeqBglOHohRlDjeK-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="315" />
+              <mxPoint x="60" y="404" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUDkHeqBglOHohRlDjeK-15" value="下載此頁畫布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="BUDkHeqBglOHohRlDjeK-13">
+          <mxGeometry x="0.4543" y="1" relative="1" as="geometry">
+            <mxPoint x="-11" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUDkHeqBglOHohRlDjeK-4" value="點擊功能鍵?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="p32bG_T66AEGrpSboCYd-1">
+          <mxGeometry x="-40" y="280" width="80" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="畫布系統" id="ONkcmC7zTux4sUwjIdsT">
+    <mxGraphModel dx="2319" dy="1449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="PvoorJOuWGyfrl_pA_Ak-0" />
+        <mxCell id="PvoorJOuWGyfrl_pA_Ak-1" parent="PvoorJOuWGyfrl_pA_Ak-0" />
+        <mxCell id="bMZdu5XNvTnawjpwwHDR-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PvoorJOuWGyfrl_pA_Ak-3" target="PqUDpHPbKcZpN5mKiJbn-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvoorJOuWGyfrl_pA_Ak-3" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;畫布系統&lt;/span&gt;&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;arcSize=50;fontStyle=0" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry x="-560" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PvoorJOuWGyfrl_pA_Ak-38" target="PqUDpHPbKcZpN5mKiJbn-24">
+          <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
+            <mxPoint x="200" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PvoorJOuWGyfrl_pA_Ak-38" target="PqUDpHPbKcZpN5mKiJbn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-20" value="鉛筆" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="PqUDpHPbKcZpN5mKiJbn-17">
+          <mxGeometry x="0.7955" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PvoorJOuWGyfrl_pA_Ak-38" target="PqUDpHPbKcZpN5mKiJbn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-21" value="橡皮擦" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="PqUDpHPbKcZpN5mKiJbn-18">
+          <mxGeometry x="0.7755" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PvoorJOuWGyfrl_pA_Ak-38" target="PqUDpHPbKcZpN5mKiJbn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-22" value="刷子" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="PqUDpHPbKcZpN5mKiJbn-19">
+          <mxGeometry x="0.6678" y="2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-23" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="PqUDpHPbKcZpN5mKiJbn-19">
+          <mxGeometry x="-0.5147" y="2" relative="1" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vj6_E0E29R-TUYeUOTic-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PvoorJOuWGyfrl_pA_Ak-38" target="vj6_E0E29R-TUYeUOTic-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvoorJOuWGyfrl_pA_Ak-38" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;點選工具?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry x="-80" y="185" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PqUDpHPbKcZpN5mKiJbn-0" target="PqUDpHPbKcZpN5mKiJbn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-0" value="設置Canva畫布&lt;br&gt;工具:套用鉛筆屬性" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry x="-400" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PqUDpHPbKcZpN5mKiJbn-1" target="PvoorJOuWGyfrl_pA_Ak-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-1" value="顯示Canva畫布&lt;br&gt;顯示工具列" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry x="-240" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PqUDpHPbKcZpN5mKiJbn-13" target="PqUDpHPbKcZpN5mKiJbn-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-13" value="工具:套用橡皮擦屬性" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PqUDpHPbKcZpN5mKiJbn-14" target="PqUDpHPbKcZpN5mKiJbn-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-14" value="工具:套用刷子屬性" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PqUDpHPbKcZpN5mKiJbn-15" target="PqUDpHPbKcZpN5mKiJbn-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-15" value="工具:套用鉛筆屬性" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry y="-40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PqUDpHPbKcZpN5mKiJbn-24" target="PqUDpHPbKcZpN5mKiJbn-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-34" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="PqUDpHPbKcZpN5mKiJbn-30">
+          <mxGeometry x="-0.0381" y="2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PqUDpHPbKcZpN5mKiJbn-24" target="PqUDpHPbKcZpN5mKiJbn-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-37" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="PqUDpHPbKcZpN5mKiJbn-36">
+          <mxGeometry x="-0.2267" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-24" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;畫布互動?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry x="160" y="185" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-29" value="描繪畫布Canva" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry x="280" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o-EEMKxTatu6Lr7KsEkF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PqUDpHPbKcZpN5mKiJbn-35" target="o-EEMKxTatu6Lr7KsEkF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-EEMKxTatu6Lr7KsEkF-7" value="上傳畫布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="o-EEMKxTatu6Lr7KsEkF-4">
+          <mxGeometry x="-0.1667" relative="1" as="geometry">
+            <mxPoint x="7" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-EEMKxTatu6Lr7KsEkF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PqUDpHPbKcZpN5mKiJbn-35" target="o-EEMKxTatu6Lr7KsEkF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-EEMKxTatu6Lr7KsEkF-8" value="清空畫布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="o-EEMKxTatu6Lr7KsEkF-5">
+          <mxGeometry x="0.4437" y="1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-EEMKxTatu6Lr7KsEkF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PqUDpHPbKcZpN5mKiJbn-35" target="o-EEMKxTatu6Lr7KsEkF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-EEMKxTatu6Lr7KsEkF-9" value="匯出為PNG" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;" vertex="1" connectable="0" parent="o-EEMKxTatu6Lr7KsEkF-6">
+          <mxGeometry x="0.6065" y="-2" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vj6_E0E29R-TUYeUOTic-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="PqUDpHPbKcZpN5mKiJbn-35" target="vj6_E0E29R-TUYeUOTic-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vj6_E0E29R-TUYeUOTic-3" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vj6_E0E29R-TUYeUOTic-2">
+          <mxGeometry x="-0.2238" y="1" relative="1" as="geometry">
+            <mxPoint x="-4" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqUDpHPbKcZpN5mKiJbn-35" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;功能鍵?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry x="160" y="280" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o-EEMKxTatu6Lr7KsEkF-1" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;上傳畫布&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry x="320" y="295" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o-EEMKxTatu6Lr7KsEkF-2" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;清空畫布&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry x="320" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o-EEMKxTatu6Lr7KsEkF-3" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;匯出為PNG&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry x="320" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vj6_E0E29R-TUYeUOTic-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="PvoorJOuWGyfrl_pA_Ak-1" source="vj6_E0E29R-TUYeUOTic-0" target="vj6_E0E29R-TUYeUOTic-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-38.095238095238095" y="315.1428571428571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vj6_E0E29R-TUYeUOTic-0" value="&lt;font&gt;點擊Overlay?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Kiwi Maru;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKiwi%2BMaru;fontStyle=0;fontSize=11;" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry x="40" y="280" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vj6_E0E29R-TUYeUOTic-5" value="&lt;h2 style=&quot;font-family: &amp;quot;Kiwi Maru&amp;quot;;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;畫室系統&lt;/span&gt;&lt;/h2&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="PvoorJOuWGyfrl_pA_Ak-1">
+          <mxGeometry x="-139.99523809523808" y="285.0028571428571" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
